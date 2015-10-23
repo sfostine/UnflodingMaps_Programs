@@ -11,3 +11,5 @@ We retrieve countries' code and percentange of life expectancy from a csv file a
 then from a .json file, we were able to retrieve a list of Feature "List<Feature>" for more details about Features or UnfoldingMaps check this link: http://unfoldingmaps.org/javadoc/
 We also use a list of Marker. From the value of life expectancy, we assign a color to each country in the map.
 
+EarthquakeCityMap:
+An application with an interactive map displaying earthquake data.
