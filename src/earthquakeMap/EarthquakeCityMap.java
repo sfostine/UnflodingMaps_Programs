@@ -70,9 +70,9 @@ public class EarthquakeCityMap extends PApplet {
 			
 	    // The List you will populate with new SimplePointMarkers
 	    List<Marker> markers = new ArrayList<Marker>();
+	    
 
 	    //Use provided parser to collect properties for each earthquake
-	    //PointFeatures have a getLocation method
 	    List<PointFeature> earthquakes = ParseFeed.parseEarthquake(this, earthquakesURL);
 	    
 	    // These print statements show you (1) all of the relevant properties 

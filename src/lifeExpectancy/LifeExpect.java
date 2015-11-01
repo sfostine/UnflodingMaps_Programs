@@ -32,7 +32,7 @@ public class LifeExpect extends PApplet{
 	public void setup(){
 		// initial setup, size of the aaplet
 		size(800, 600, OPENGL);
-		// initialise the Unfolding map using Google map provider
+		// initialize the Unfolding map using Google map provider
 		map = new UnfoldingMap(this, 50,50,700,700, new Google.GoogleMapProvider());
 		// add event to map so that we can can zoom and move the map
 		MapUtils.createDefaultEventDispatcher(this, map);
